@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+/* The includes is refereed to as a header */
 int sum(int a, int b)
 {
     return a + b;
@@ -28,4 +28,9 @@ int main()
     What i find very interesting is running with the debugger attached,
     we can see the actual registers in use and there values
     very cool
+
+    The book also mentions we have to buy the standards which isnt so cool
+    but heres a link to drafts: https://github.com/cplusplus/draft
+
+    They also have this podcast: https://cppcast.com/rust_lt_eq_gt_cpp/
 */

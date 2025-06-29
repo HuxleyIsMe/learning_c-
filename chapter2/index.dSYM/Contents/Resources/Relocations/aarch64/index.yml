@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/huxt/learning_C/chapter2/index'
+relocations:
+  - { offset: 0x26, size: 0x8, addend: 0x0, symName: __Z19printOutNumberTypesv, symObjAddr: 0x0, symBinAddr: 0x100003D44, symSize: 0x80 }
+  - { offset: 0x6D, size: 0x8, addend: 0x0, symName: __Z19printOutNumberTypesv, symObjAddr: 0x0, symBinAddr: 0x100003D44, symSize: 0x80 }
+  - { offset: 0xB1, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x80, symBinAddr: 0x100003DC4, symSize: 0x5C }
+  - { offset: 0x125, size: 0x8, addend: 0x0, symName: __ZN10CalculatorC1E9Operators, symObjAddr: 0xDC, symBinAddr: 0x100003E20, symSize: 0x34 }
+  - { offset: 0x15B, size: 0x8, addend: 0x0, symName: __ZN10Calculator9calculateEii, symObjAddr: 0x110, symBinAddr: 0x100003E54, symSize: 0xC4 }
+  - { offset: 0x19B, size: 0x8, addend: 0x0, symName: __ZN10CalculatorC2E9Operators, symObjAddr: 0x1E4, symBinAddr: 0x100003F28, symSize: 0x20 }
+...
