@@ -1,0 +1,8 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/huxt/learning_C/chapter3/array_decay'
+relocations:
+  - { offset: 0x26, size: 0x8, addend: 0x0, symName: __Z11print_namesP5Kebabm, symObjAddr: 0x0, symBinAddr: 0x100003E34, symSize: 0x7C }
+  - { offset: 0x46, size: 0x8, addend: 0x0, symName: __Z11print_namesP5Kebabm, symObjAddr: 0x0, symBinAddr: 0x100003E34, symSize: 0x7C }
+  - { offset: 0x98, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x7C, symBinAddr: 0x100003EB0, symSize: 0x74 }
+...

@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/huxt/learning_C/chapter2/numberSystems'
+relocations:
+  - { offset: 0x26, size: 0x8, addend: 0x0, symName: __Z15convertToBinaryi, symObjAddr: 0x0, symBinAddr: 0x100003CB4, symSize: 0x108 }
+  - { offset: 0x79, size: 0x8, addend: 0x0, symName: __Z15convertToBinaryi, symObjAddr: 0x0, symBinAddr: 0x100003CB4, symSize: 0x108 }
+  - { offset: 0xEB, size: 0x8, addend: 0x0, symName: __Z5floorB8ue170006IiENSt3__19enable_ifIXsr3std11is_integralIT_EE5valueEdE4typeES2_, symObjAddr: 0x108, symBinAddr: 0x100003DBC, symSize: 0x24 }
+  - { offset: 0x122, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x12C, symBinAddr: 0x100003DE0, symSize: 0x54 }
+  - { offset: 0x1A6, size: 0x8, addend: 0x0, symName: __ZN9ConverterC1Ei, symObjAddr: 0x180, symBinAddr: 0x100003E34, symSize: 0x34 }
+  - { offset: 0x1DC, size: 0x8, addend: 0x0, symName: __ZN9Converter9convertToE14Number_systems, symObjAddr: 0x1B4, symBinAddr: 0x100003E68, symSize: 0xA0 }
+  - { offset: 0x22A, size: 0x8, addend: 0x0, symName: __ZN9ConverterC2Ei, symObjAddr: 0x264, symBinAddr: 0x100003F18, symSize: 0x20 }
+...
