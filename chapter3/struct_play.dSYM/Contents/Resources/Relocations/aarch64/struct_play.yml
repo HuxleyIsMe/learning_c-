@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/huxt/learning_C/chapter3/struct_play'
+relocations:
+  - { offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003E38, symSize: 0x74 }
+  - { offset: 0x46, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003E38, symSize: 0x74 }
+  - { offset: 0xFC, size: 0x8, addend: 0x0, symName: __ZN6PlayerC1Ev, symObjAddr: 0x74, symBinAddr: 0x100003EAC, symSize: 0x2C }
+  - { offset: 0x126, size: 0x8, addend: 0x0, symName: __ZN6Player12setIsPlayingEP4Game, symObjAddr: 0xA0, symBinAddr: 0x100003ED8, symSize: 0x20 }
+  - { offset: 0x158, size: 0x8, addend: 0x0, symName: __ZN6Player10is_playingEv, symObjAddr: 0xC0, symBinAddr: 0x100003EF8, symSize: 0x44 }
+  - { offset: 0x17C, size: 0x8, addend: 0x0, symName: __ZN6PlayerC2Ev, symObjAddr: 0x104, symBinAddr: 0x100003F3C, symSize: 0x18 }
+...

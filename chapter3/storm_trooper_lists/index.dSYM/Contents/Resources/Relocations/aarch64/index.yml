@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/huxt/learning_C/chapter3/storm_trooper_lists/index'
+relocations:
+  - { offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003D5C, symSize: 0x148 }
+  - { offset: 0x46, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003D5C, symSize: 0x148 }
+  - { offset: 0x145, size: 0x8, addend: 0x0, symName: __ZN7TrooperC1Ev, symObjAddr: 0x148, symBinAddr: 0x100003EA4, symSize: 0x2C }
+  - { offset: 0x16F, size: 0x8, addend: 0x0, symName: __ZN7Trooper11insert_nextEPS_, symObjAddr: 0x174, symBinAddr: 0x100003ED0, symSize: 0x64 }
+  - { offset: 0x1A1, size: 0x8, addend: 0x0, symName: __ZN7TrooperC2Ev, symObjAddr: 0x1D8, symBinAddr: 0x100003F34, symSize: 0x1C }
+...
