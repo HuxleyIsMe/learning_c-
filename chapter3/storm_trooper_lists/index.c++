@@ -37,19 +37,6 @@ struct Trooper
         next = new_trooper;
     };
 
-    // 1 2
-    // 1 next is 2
-    // 1 previous is null
-    // 2 next is null
-    // 2 previous is 1
-    // insert 3 before 2
-    // 1 next = 3
-    // 1 previous is null
-    // 3 next = 2
-    // 3 previous = 1
-    // 2 next is null
-    // 2 previous = 3
-
     void insert_before(Trooper *new_trooper)
     {
 
