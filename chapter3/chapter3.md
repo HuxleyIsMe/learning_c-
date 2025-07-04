@@ -54,3 +54,11 @@ must be very careful. Simple mistakes with pointers can have catastrophic
 and mysterious consequences.
 
 [very useful video on pointers and references](https://www.youtube.com/watch?v=iNlmsLrzGD4)
+
+## Wow ok this chapter is really packing a lot of new concepts!
+
+So cool beanies member initalizers, auto, referencex pointers and constants.
+
+hmm class member initializers.... come back to this when we have interwebs i wants a video
+
+a const tells a function not to modify the passed in values remember in the number system example? it got to excited? had to tell it that no this was not gonna change.

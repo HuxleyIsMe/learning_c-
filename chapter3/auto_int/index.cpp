@@ -28,4 +28,10 @@ int main()
  *
  * essentially as we updated a reference, we updated the real value not just a copy of it...
  * that was unexpected to me.
+ *
+ * its the same in JS like
+ *i think old js did this...
+ * I cant reproduce it but i remember that objects would go strange because heap and reference situations
+ * so side effects were common but it doesnt seem to happen now
+ *
  */
