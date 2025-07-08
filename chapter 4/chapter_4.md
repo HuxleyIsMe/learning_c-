@@ -3,9 +3,19 @@
 The circle of life!! 
 And it exist in C++ tooooo
 
-im really really wierdly excited about this, like i seem to like memory why i dont know its just blocks filled with blocks not even shiny - well actually a little shiny los ghets
+im really excited about this, i seem to like memory. i don't know why, its just blocks filled with blocks not even shiny - well perhaps a little shiny los ghets
+
+ich bin wirklich aufregend uber das, denn ich memory mag. ich wieB nicht warum, es ist nur kleine stucken innerhalb mehr kleine Teil sind nicht schnient weil veiliecht ein bisschen
+
+Ich bin wirklich begeistert davon, weil ich Erinnerungen mag. Ich weiß nicht warum, es sind nur kleine Stücke in kleineren Teilen, die nicht glänzen, vielleicht sind sie ein bisschen
 
 Object = region of storagethat has type and value
+
+begeistert = enthusiastic
+davon = of that da von that from
+Erinnerungen = memories
+Stucke = peices Stuck peice
+
 
 reserving storage = allocation
 releasing storage ( forgetting ) = deallocation
@@ -15,11 +25,20 @@ lifetime of an object is once its born via constructor and just before its destr
 
 automatic variables = local variables 
 
-what this means when making a function things used with in them only exist in that time and space. auto is not to be confused with our earlier use of auto when declaring var type, its a term used to mean just a forgettable moment
+what this means: variables made inside a function only exist in that time and space. auto is not to be confused with our earlier use of auto when declaring var type, its a term used to mean just a forgettable moment.
 
-> I like C++ so far but ifeel some parts of the language and ideas awkwardly overlap each other, like the above use of auto for auto assignment of var types but also used as a term for local vars... also the whole * * situations placing where etc, it feels very much made for one persons idea of logic then something tangible, it would be cool to instead use like - when derefferencing a value or use like local var instead of automatic variables... jsut thoughts and personal opinions
+was bedeut diese: Variables machen hin ein function nur leben in diese zeit und teil.
+Was bedeutet das: Innerhalb einer Funktion erstellte Variablen existieren nur in dieser Zeit und diesem Teil.
 
-Ok we alos have static and extern keywords.
+(das /diese can be used what does this mean what does that mean, leans towards das)
+
+innerhalb -> within
+erstellte -> created
+bedeutet -> means
+
+> I like C++ so far but i feel some parts of the language and ideas awkwardly overlap each other, like the above use of auto for auto assignment of var types but also used as a term for local vars... also the whole * * situations placing where etc, it feels very much made for one persons idea of logic then something tangible, it would be cool to instead use like - when derefferencing a value or use like local var instead of automatic variables... jsut thoughts and personal opinions
+
+Ok we also have `static` and `extern` keywords.
 static goes at global scope
 these bebes have static storage duration -> meaning they live while the program lives!
 global allows referencing everywhere
@@ -86,6 +105,22 @@ this is a big ah shit mo
 
 descturcotrs are written with the same name as the member but with ~
 
-ok im a little locked here, like the i dont quite see throw the syntax which is which - its hard to spot the destructor...
+ok im a little locked here, like the i dont quite see throw the syntax which is which - its hard to spot the destructor... oh wait i see it it uses the ~ and same name as the object.
 
 ok its been an hour time for a break we are at page 166
+
+OK so heres some videos on this: 
+
+[memory management](https://www.youtube.com/watch?v=Dkn4EKL2xSE) <-- this was a lil to hard for me right now lets try an easier one then come back and finish this
+
+Characteristics of a Destructor
+All the points mentioned below show the characteristics of a destructor:
+
+Destructor has the same name as their class name preceded by a tilde (~) symbol.
+It is not possible to define more than one destructor.
+The destructor is only one way to destroy the object created by the constructor. Hence, destructor cannot be overloaded.
+It cannot be declared static or const.
+Destructor neither requires any argument nor returns any value.
+It is automatically called when an object goes out of scope. 
+Destructor release memory space occupied by the objects created by the constructor.
+In destructor, objects are destroyed in the reverse of an object creation.
