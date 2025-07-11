@@ -56,24 +56,16 @@ so lol this whole time control codes where ascii codes.
 
 ## making our own types 
 
-- ennumerations
+- enumerations
     enums restricted set of possible vals
 - classes 
-    members share same memory location and unions are dangerous to misusue
+    members share same memory location and unions are dangerous to miss use
 - unions 
 
 
 Ok wow this a is a lot on this chapter 
 
-C++ object come iwth a desturcitr cleanup functions that cleans it all up
-Defining a destructor is optional. If you do decide to implement a
-destructor, it must not take any arguments. Examples of actions you might
-want to take in a destructor include releasing file handles, flushing network
-sockets, and freeing dynamic objects.
-If you don’t define a destructor, a default destructor is automatically
-generated. The default destructor’s behavior is to perform no action.
-You’ll learn a whole lot more about destructors in “Tracing the Object
-Life Cycle” on page 96.
+>C++ object come with a destructor cleanup functions that cleans it all up Defining a destructor is optional. If you do decide to implement a destructor, it must not take any arguments. Examples of actions you might want to take in a destructor include releasing file handles, flushing network sockets, and freeing dynamic objects. If you don’t define a destructor, a default destructor is automatically generated. The default destructor’s behavior is to perform no action. You’ll learn a whole lot more about destructors in “Tracing the Object Life Cycle”.
 
 
 ooh structs and classes look the same but theres like minute difference a lot to do with visibility:

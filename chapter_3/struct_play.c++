@@ -39,7 +39,7 @@ int main()
     carlos.name[0] = 'V';
     chess.game[0] = 'C';
     // bug one i called setIsPlaying before having srt carlos name causing randomness
-    // that isn't neatly flagged. Ah wow this lack of hositing is painful.
+    // that isn't neatly flagged. Ah wow this lack of hosting is painful.
     carlos.setIsPlaying(&chess); // same as get pointer address
     carlos.is_playing();
 

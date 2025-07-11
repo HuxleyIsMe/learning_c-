@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/huxt/learning_C/chapter 4/timerClass/index'
+relocations:
+  - { offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003DAC, symSize: 0x40 }
+  - { offset: 0x46, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003DAC, symSize: 0x40 }
+  - { offset: 0xE5, size: 0x8, addend: 0x0, symName: __ZN10TimerClassC1Ev, symObjAddr: 0x40, symBinAddr: 0x100003DEC, symSize: 0x2C }
+  - { offset: 0x10D, size: 0x8, addend: 0x0, symName: __ZN10TimerClassD1Ev, symObjAddr: 0x6C, symBinAddr: 0x100003E18, symSize: 0x2C }
+  - { offset: 0x135, size: 0x8, addend: 0x0, symName: __ZN10TimerClassC2Ev, symObjAddr: 0x98, symBinAddr: 0x100003E44, symSize: 0x38 }
+  - { offset: 0x15D, size: 0x8, addend: 0x0, symName: __ZN10TimerClassD2Ev, symObjAddr: 0xD0, symBinAddr: 0x100003E7C, symSize: 0x90 }
+...
